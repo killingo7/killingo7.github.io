@@ -1,0 +1,4 @@
+Download boilerplate: https://html5boilerplate.com/
+Download Editor Atom
+Download Github Desktop
+Follow Instructions: https://www.youtube.com/watch?v=95syXiFkI8A
