@@ -11,10 +11,31 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
+html, body {
   color: #222;
   font-size: 1em;
+  font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+  font-style: normal;
+  font-variant: normal;
   line-height: 1.4;
+  width: 80%;
+  height: 100%;
+  margin-left: 10%;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+}
+
+.entry {
+
+}
+
+.impressum {
+  font-size: 0.8em;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 /*
@@ -41,14 +62,21 @@ html {
  * A better looking default horizontal rule
  */
 
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
-}
+ hr {
+        display: block;
+        position: relative;
+        padding: 0;
+        margin: 8px auto;
+        height: 0;
+        width: 100%;
+        max-height: 0;
+        font-size: 1px;
+        line-height: 0;
+        clear: both;
+        border: none;
+        border-top: 1px solid #aaaaaa;
+        border-bottom: 1px solid #ffffff;
+     }
 
 /*
  * Remove the gap between audio, canvas, iframes,
@@ -262,4 +290,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
